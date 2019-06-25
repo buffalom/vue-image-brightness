@@ -1,10 +1,17 @@
 {
   "name": "vue-image-brightness",
   "version": "0.1.0",
-  "private": true,
+  "author": "Tom Diggelmann",
+  "license": "MIT",
+  "private": false,
+  "description": "Vue.js plugin to get brightness of an image.",
+  "main": "./dist/vue-image-brightness.js",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "mkdir -p ./dist && cp ./src/plugins/vue-image-brightness.js ./dist/",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
