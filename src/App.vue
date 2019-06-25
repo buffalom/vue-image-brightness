@@ -12,6 +12,11 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  mounted () {
+    this.$imageBrightness('http://localhost:8080/img/logo.82b9c7a5.png')
+      .then(console.log)
+      .catch(console.error)
   }
 }
 </script>
