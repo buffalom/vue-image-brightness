@@ -25,9 +25,11 @@ Vue.$imageBrightness('http://localhost:8080/img/logo.82b9c7a5.png')
 The function $imageBrightness() is also attached to the Vue prototype:
 
 ```javascript
+...
 mounted() {
   this.$imageBrightness('http://localhost:8080/img/logo.82b9c7a5.png')
     .then(console.log)
     .catch(console.error)
-}
+},
+...
 ```
