@@ -1,16 +1,21 @@
 {
   "name": "vue-image-brightness",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Tom Diggelmann",
   "homepage": "https://github.com/Buffalom/vue-image-brightness",
   "repository": {
-    "type" : "git",
-    "url" : "github:buffalom/vue-image-brightness"
+    "type": "git",
+    "url": "github:buffalom/vue-image-brightness"
   },
   "license": "MIT",
   "private": false,
   "description": "Vue.js plugin to get brightness of an image.",
-  "keywords": ["vue", "plugin", "image", "brightness"],
+  "keywords": [
+    "vue",
+    "plugin",
+    "image",
+    "brightness"
+  ],
   "main": "./dist/vue-image-brightness.js",
   "files": [
     "dist/*"
