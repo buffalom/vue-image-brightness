@@ -1,10 +1,11 @@
 const plugin = {}
 
 // Source: https://stackoverflow.com/questions/13762864/image-dark-light-detection-client-sided-script/13763063 (25.06.2019)
-function imageBrightness (imageSrc) {
+function imageBrightness(imageSrc) {
   return new Promise((resolve, reject) => {
     try {
       const img = document.createElement('img')
+      img.crossOrigin = 'Anonymous'
       img.src = imageSrc
       img.style.display = 'none'
 
